@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+:root {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #0B132B;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #D6C199;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #bda06c;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #0B132B;
+  color: #F0EAD6;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+/* Modern Button Reset */
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+button:hover {
+  border-color: #D6C199;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* Dark Theme Button Colors */
+button.btn-primary {
+  background-color: #0B132B;
+  color: #F0EAD6;
+}
+button.btn-primary:hover {
+  background-color: #1C2541;
+}
+
+button.btn-secondary {
+  background-color: #D6C199;
+  color: #0B132B;
+}
+button.btn-secondary:hover {
+  background-color: #b89d6d;
+}
+
+button.btn-danger {
+  background-color: #C1121F;
+  color: white;
+}
+button.btn-danger:hover {
+  background-color: #9a0e18;
+}
+
+button.btn-success {
+  background-color: #198754;
+  color: white;
+}
+button.btn-success:hover {
+  background-color: #126c44;
+}
+
+/* Card Panel UI */
+.card {
+  background-color: #F7F2E7;
+  color: #0B132B;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Modal backdrop */
+.modal-backdrop {
+  background-color: rgba(0, 0, 0, 0.85);
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3000;
+}
+
+/* Important Text Highlight */
+.tag-important {
+  color: #D6C199;
+  font-weight: bold;
+}
+
+/* Light mode fallback */
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 0.7; }
+  50% { transform: scale(1.2); opacity: 1; }
+  100% { transform: scale(1); opacity: 0.7; }
+}
+
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(-10px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
