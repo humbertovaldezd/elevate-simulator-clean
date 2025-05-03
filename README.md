@@ -49,6 +49,18 @@ Coming soon. Screens and video demos will be added in the next commit.
 🔒 Disclaimer
 This project is part of a private initiative and does not include confidential business logic or production data. Asset files and datasets can be shared privately for professional evaluation.
 
+---
+
+## 🎥 Demo Video
+
+Watch a 60-second walkthrough of the Elevate Simulator in action:  
+[![Watch on YouTube](https://img.youtube.com/vi/BMegPBkikx4/0.jpg)](https://youtu.be/BMegPBkikx4)
+
+> *Features shown: 3D face model rendering, level switching, disclaimer flow, training quiz, and real-time injection animation.*
+
+---
+
+
 👨‍💻 Author
 Humberto Valdez
 QA | Product Owner | SDET | Builder
